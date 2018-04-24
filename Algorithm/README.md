@@ -1,2 +1,0 @@
-# Pain killer
-- Algorithm
