@@ -2,7 +2,7 @@
 
 import UIKit
 
-//그래프에 이웃과 가중치 저장
+//그래프에 이웃과 각 거리 저장
 typealias Nodes = [String:Double]
 var graph =  [String : Nodes] ()
 graph["start"] = Nodes()
@@ -15,7 +15,7 @@ graph["b"]?["a"] = 3
 graph["b"]?["fin"] = 5
 graph["fin"] = Nodes()
 
-//시작점 부터 해당 노드까지의 가중치
+//시작점 부터 해당 노드까지의 누적 거리
 let infinity = Double.infinity
 var costTable = Nodes()
 costTable["a"] = 6
@@ -31,6 +31,7 @@ parentTable["fin"] = nil
 //log
 var processed = [String]()
 
+//현재 노드에서 가장 짧은 거리의 이웃노드 찾기
 func findLowestCostNodes(costTable: Nodes) -> Nodes {
   var lowestCost = Double.infinity
   var lowestCostNodes = Nodes()
@@ -49,25 +50,27 @@ var lowestCostNodes = findLowestCostNodes(costTable: costTable)
 
 //이웃이 없을때까지 반복. 즉 목적지에 다다를때까지 반복
 while !lowestCostNodes.isEmpty {
+  
   //현재 노드의 key
   var nodeKey = lowestCostNodes.first?.key
-  //현재 노드까지의 cost
+  //현재 노드까지의 누적거리
   var cost = costTable[nodeKey!]
   
   //이웃노드들
   var neighborNodes = graph[nodeKey!]
   
+  //이웃노드들 돌면서 최단거리 업데이트
   for n in (neighborNodes?.keys)! {
-    //현재노드까지의 cost + 이웃노드의 cost
     var newCost = cost! + (neighborNodes?[n])!
-    //기존의 cost보다 저렴하면 업데이트
     if costTable[n]! > newCost {
       costTable[n] = newCost
       parentTable[n] = nodeKey
     }
   }
   
+  //이 노드 체크했다고 표시
   processed.append(nodeKey!)
+  //다음 단계의 가장 가까운 노드로 이동
   lowestCostNodes = findLowestCostNodes(costTable: costTable)
 }
 
