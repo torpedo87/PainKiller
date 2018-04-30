@@ -14,4 +14,4 @@
   - 프로세스 상태 [link](https://gist.github.com/torpedo87/71d7dd7963f0fc78086b18daf847e75e)
   - 스케줄러 [link](https://gist.github.com/torpedo87/2fba6cf3bc98fbb868e406cffec9cd36)
   - thread [link](https://gist.github.com/torpedo87/e58be336e7884899b6cf7ae9d017059e)
-  - 프로세스 관리 [link](https://gist.github.com/torpedo87/19ef1b52f419d61c5c99f792eb6c7b28)
+  - 프로세스 관리 [link](https://gist.github.com/torpedo87/19ef1b52f419d61c5c99f792eb6c7b28)
