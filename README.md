@@ -7,7 +7,7 @@
 ## OS
 
 - 개요
-  - Operating System [link](https://gist.github.com/torpedo87/f2a796aaf4f59ddf956b1b8728921d5f)
+  - Operating System [link](https://gist.github.com/torpedo87/f2a796aaf4f59ddf956b1b8728921d5f)
   - program execution [link](https://gist.github.com/torpedo87/30096bde4796488b9b3f1b8911b67b27)
 
 - 프로세스 관리
