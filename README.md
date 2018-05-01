@@ -17,4 +17,4 @@
   - process management [link](https://gist.github.com/torpedo87/19ef1b52f419d61c5c99f792eb6c7b28)
 
 - CPU 스케줄링
-  - cpu scheduling [link](https://gist.github.com/torpedo87/4a72b9fed6ac59ad026fbde56c643e02)
+  - cpu scheduling [link](https://gist.github.com/torpedo87/4a72b9fed6ac59ad026fbde56c643e02)
