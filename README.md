@@ -15,3 +15,6 @@
   - scheduler [link](https://gist.github.com/torpedo87/2fba6cf3bc98fbb868e406cffec9cd36)
   - thread [link](https://gist.github.com/torpedo87/e58be336e7884899b6cf7ae9d017059e)
   - process management [link](https://gist.github.com/torpedo87/19ef1b52f419d61c5c99f792eb6c7b28)
+
+- CPU 스케줄링
+  - cpu scheduling [link](https://gist.github.com/torpedo87/4a72b9fed6ac59ad026fbde56c643e02)
