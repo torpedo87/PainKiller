@@ -20,5 +20,5 @@
   - cpu scheduling [link](https://gist.github.com/torpedo87/4a72b9fed6ac59ad026fbde56c643e02)
 
 - process 동기화
-  - semaphore [link](https://gist.github.com/torpedo87/376301447a325ef9e1d2642f6bd7fb44)
+  - semaphore, monitor [link](https://gist.github.com/torpedo87/376301447a325ef9e1d2642f6bd7fb44)
   
