@@ -22,7 +22,6 @@
 - process 동기화
   - semaphore, monitor [link](https://gist.github.com/torpedo87/376301447a325ef9e1d2642f6bd7fb44)
   - deadlock [link](https://gist.github.com/torpedo87/25cde570679c50760dae7ed2f0fdc8c7)
-  
+
+
 - 메모리 관리
-  - 
-  - 
