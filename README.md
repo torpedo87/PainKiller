@@ -21,4 +21,4 @@
 
 
 - 메모리 관리
-  - address binding [link](https://gist.github.com/torpedo87/1dafd193e2cecd75c2537aa7d787239d)
+  - address binding [link](https://gist.github.com/torpedo87/1dafd193e2cecd75c2537aa7d787239d)
