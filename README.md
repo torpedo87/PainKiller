@@ -1,9 +1,5 @@
 # Pain killer
 
-
-## Algorithm
-
-
 ## OS
 
 - 개요
