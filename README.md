@@ -22,4 +22,4 @@
 
 - 메모리 관리
   - address binding [link](https://gist.github.com/torpedo87/1dafd193e2cecd75c2537aa7d787239d)
-  - paging and segmentation [link](https://gist.github.com/torpedo87/5844ab4c4ee5ee3a43a46a8b1448fe76)
+  - paging and segmentation [link](https://gist.github.com/torpedo87/5844ab4c4ee5ee3a43a46a8b1448fe76)
