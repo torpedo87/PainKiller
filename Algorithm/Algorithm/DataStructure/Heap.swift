@@ -136,3 +136,14 @@ struct Heap<T> {
     elements.swapAt(firstIndex, secondIndex)
   }
 }
+
+let maxHandler: (Double, Double) -> Bool = { (a, b) in
+  return a > b
+}
+
+let minHandler: (Double, Double) -> Bool = { (a, b) in
+  return a < b
+}
+
+var maxHeap = Heap<Double>(elements: [], priorityFunction: maxHandler)
+var minHeap = Heap<Double>(elements: [], priorityFunction: minHandler)

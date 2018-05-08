@@ -18,6 +18,7 @@
 		4865E5C4209C374F003BE430 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865E5C3209C374F003BE430 /* Heap.swift */; };
 		4865E5C6209C5B34003BE430 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865E5C5209C5B34003BE430 /* BinaryTree.swift */; };
 		4865E5C8209C67FD003BE430 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865E5C7209C67FD003BE430 /* BinarySearchTree.swift */; };
+		4865E5CA20A189AC003BE430 /* MedianHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865E5C920A189AC003BE430 /* MedianHeap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4865E5C3209C374F003BE430 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		4865E5C5209C5B34003BE430 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		4865E5C7209C67FD003BE430 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		4865E5C920A189AC003BE430 /* MedianHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianHeap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				4865E5C3209C374F003BE430 /* Heap.swift */,
 				4865E5C5209C5B34003BE430 /* BinaryTree.swift */,
 				4865E5C7209C67FD003BE430 /* BinarySearchTree.swift */,
+				4865E5C920A189AC003BE430 /* MedianHeap.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4865E5C6209C5B34003BE430 /* BinaryTree.swift in Sources */,
+				4865E5CA20A189AC003BE430 /* MedianHeap.swift in Sources */,
 				4865E5C0209C3716003BE430 /* Queue.swift in Sources */,
 				4865E5BE209C370E003BE430 /* Stack.swift in Sources */,
 				4865E5BC209C3707003BE430 /* LinkedList.swift in Sources */,
