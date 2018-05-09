@@ -25,3 +25,5 @@
   - paging and segmentation [link](https://gist.github.com/torpedo87/5844ab4c4ee5ee3a43a46a8b1448fe76)
   - virtual memory [link](https://gist.github.com/torpedo87/20ab80c820ab5ade0e534cecbdf96aca)
   
+- 파일시스템
+  - file system [link](https://gist.github.com/torpedo87/38230699c271cf21b06e7cedb7955f85)
