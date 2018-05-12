@@ -27,3 +27,7 @@
   
 - 파일시스템
   - file system [link](https://gist.github.com/torpedo87/38230699c271cf21b06e7cedb7955f85)
+
+- 입출력 시스템
+  - disk management [link](https://gist.github.com/torpedo87/b3e0ea23ad3af6088fea230c008a5028)
+  
