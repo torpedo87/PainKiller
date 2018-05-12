@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4865E5A9209C363B003BE430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865E5A8209C363B003BE430 /* AppDelegate.swift */; };
-		4865E5AB209C363B003BE430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865E5AA209C363B003BE430 /* ViewController.swift */; };
 		4865E5B0209C363C003BE430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4865E5AF209C363C003BE430 /* Assets.xcassets */; };
 		4865E5B3209C363C003BE430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4865E5B1209C363C003BE430 /* LaunchScreen.storyboard */; };
 		4865E5BC209C3707003BE430 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865E5BB209C3707003BE430 /* LinkedList.swift */; };
@@ -22,9 +21,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		484BC2BE20A45693007715F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		484BC2C320A6D663007715F0 /* SelectionSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SelectionSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		484BC2C420A6D678007715F0 /* QuickSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = QuickSort.playground; sourceTree = "<group>"; };
+		484BC2C520A6D678007715F0 /* Greedy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Greedy.playground; sourceTree = "<group>"; };
+		484BC2C620A6D678007715F0 /* Dijkstras.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dijkstras.playground; sourceTree = "<group>"; };
+		484BC2C720A6D678007715F0 /* HashTable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HashTable.playground; sourceTree = "<group>"; };
+		484BC2C820A6D678007715F0 /* BinarySearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		484BC2C920A6D678007715F0 /* BreadthFirstSearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BreadthFirstSearch.playground; sourceTree = "<group>"; };
+		484BC2CA20A6D678007715F0 /* Dynamic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dynamic.playground; sourceTree = "<group>"; };
+		484BC2CB20A6D679007715F0 /* Recursive.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Recursive.playground; sourceTree = "<group>"; };
 		4865E5A5209C363B003BE430 /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4865E5A8209C363B003BE430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4865E5AA209C363B003BE430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4865E5AF209C363C003BE430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4865E5B2209C363C003BE430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4865E5B4209C363C003BE430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		484BC2C020A6D5F3007715F0 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				484BC2C820A6D678007715F0 /* BinarySearch.playground */,
+				484BC2C920A6D678007715F0 /* BreadthFirstSearch.playground */,
+				484BC2C620A6D678007715F0 /* Dijkstras.playground */,
+				484BC2CA20A6D678007715F0 /* Dynamic.playground */,
+				484BC2C520A6D678007715F0 /* Greedy.playground */,
+				484BC2C720A6D678007715F0 /* HashTable.playground */,
+				484BC2C420A6D678007715F0 /* QuickSort.playground */,
+				484BC2CB20A6D679007715F0 /* Recursive.playground */,
+				484BC2C320A6D663007715F0 /* SelectionSort.playground */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
 		4865E59C209C363B003BE430 = {
 			isa = PBXGroup;
 			children = (
@@ -68,9 +92,10 @@
 		4865E5A7209C363B003BE430 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				484BC2BE20A45693007715F0 /* README.md */,
+				484BC2C020A6D5F3007715F0 /* Sorting */,
 				4865E5BA209C36AF003BE430 /* DataStructure */,
 				4865E5A8209C363B003BE430 /* AppDelegate.swift */,
-				4865E5AA209C363B003BE430 /* ViewController.swift */,
 				4865E5AF209C363C003BE430 /* Assets.xcassets */,
 				4865E5B1209C363C003BE430 /* LaunchScreen.storyboard */,
 				4865E5B4209C363C003BE430 /* Info.plist */,
@@ -170,7 +195,6 @@
 				4865E5BC209C3707003BE430 /* LinkedList.swift in Sources */,
 				4865E5C2209C3747003BE430 /* Tree.swift in Sources */,
 				4865E5C8209C67FD003BE430 /* BinarySearchTree.swift in Sources */,
-				4865E5AB209C363B003BE430 /* ViewController.swift in Sources */,
 				4865E5A9209C363B003BE430 /* AppDelegate.swift in Sources */,
 				4865E5C4209C374F003BE430 /* Heap.swift in Sources */,
 			);
