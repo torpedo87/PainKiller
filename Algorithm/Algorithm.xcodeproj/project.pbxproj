@@ -26,7 +26,7 @@
 		484BC2C420A6D678007715F0 /* QuickSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = QuickSort.playground; sourceTree = "<group>"; };
 		484BC2C520A6D678007715F0 /* Greedy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Greedy.playground; sourceTree = "<group>"; };
 		484BC2C620A6D678007715F0 /* Dijkstras.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dijkstras.playground; sourceTree = "<group>"; };
-		484BC2C720A6D678007715F0 /* HashTable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HashTable.playground; sourceTree = "<group>"; };
+		484BC2C720A6D678007715F0 /* HashTable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HashTable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		484BC2C820A6D678007715F0 /* BinarySearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		484BC2C920A6D678007715F0 /* BreadthFirstSearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BreadthFirstSearch.playground; sourceTree = "<group>"; };
 		484BC2CA20A6D678007715F0 /* Dynamic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dynamic.playground; sourceTree = "<group>"; };

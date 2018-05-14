@@ -104,6 +104,25 @@
 - prioirty queue의 enqueue = complete tree 구조를 만족시키기 위해 마지막 레벨의 다음 넣을 자리에 넣은 삽입한 후 위로 올라가면서 parent 와 비교해서 자리 교체(재귀), O(logN)
 - priority queue의 dequeue (root delete) = root 를 지우고 complete tree 구조를 유지하기 위해 가장 마지막 노드를 root 차리에 채운 후 밑으로 내려가면서 bigger child 와 비교해서 자리 교체(재귀), O(logN)
 
+---
+
+# hash table
+- key, value 쌍을 저장하는 큰 사이즈의 테이블
+- hash func = key 값을 array index 로 변환
+- index 충돌이 일어나지 않을 때에는 search, insert, delete 모두 O(1)
+
+## hash func
+- modulo = 어떤 양의 정수로 key 값을 나눈 후 나머지 값을 index로 하는 방법, 나머지는 범위가 정해져 있으므로 hash table의 사이즈를 제한할 수 있다
+- mid-square = key값을 제곱한 후 중간의 몇개의 자릿수를 추출한 수를 가지고 modulo 방법으로 처리
+- digit-analysis = key값의 각 자릿수를 다 더한 수를 가지고 modulo 방법으로 처리
+
+## index 충돌시 해결방법
+- closed addressing = 동일한 인덱스에 value 들을 linked list 또는 트리 구조로 추가.
+- open addressing = 인덱스 겹칠 때 비어있는 다른 인덱스를 찾아 이동
+
+## delete in open addressing hash table
+- 인덱스 충돌이 일어나서 open addressing 방법으로 삽입한 값을 지울 때에는 그냥 지워버리면 다음 값 지울 때 못찾으므로 실제로 지우지 말고 지웠다는 표시만 해둔다
+- 값을 안지우면 나중에 공간이 부족해지므로 새 테이블로 insert하는데, 이 때 지웠다고 표시된 것들은 새 테이블에 insert 안한다
 
 
 ---
@@ -118,7 +137,7 @@
 
 
 # O(N*logN) sorting
-- 작은 단위로 쪼개서 푼 후 합치기 (divide and conquer)
+- 작은 단위로 쪼개서 푼 후 합치기 (divide and conquer) = 비교를 사용하여 O(N^2)을 O(N*logN)으로 개선
 - 재귀사용
 - 단점 = 제대로 쪼개지 못하면 O(N^2) 될 수도 있음
 - merge sort = 절반으로 계속 최소단위가 될 때까지 쪼갠 후, 재귀로 합치면서 sorting
