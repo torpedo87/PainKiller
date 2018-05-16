@@ -53,7 +53,8 @@
 ---
 
 # 트리
-- linked list 구조와 비슷하나 트리는 한줄이 아님
+- linked list 구조를 확장한 것. but 트리는 한줄이 아님
+- parent 하나당 여러개의 children
 - subTree 들이 있으므로 재귀를 사용하기 편한 구조
 - traversing = 모든 노드를 탐색하는 방법
 - root = special node
@@ -74,15 +75,16 @@
 
 
 ### Depth first traverse 
+- 일단 한줄로 깊이 들어가기
 - left -> right
-- (재귀 사용)
+- 재귀 사용. stack
 - pre-order = current -> left -> right
 - in-order = left -> current -> right (정렬 효과)
 - post-order = left -> right -> current
 
 
 ### breadth first traverse
-- level순서 
+- 동일한 레벨부터 
 - (queue, 반복문 사용)
 - enqueue root
 - queue 가 empty 될 때까지 밑에 반복
@@ -127,6 +129,62 @@
 
 ---
 
+# graph
+- 트리는 한 부모당 여러 자식이 존재하나, 그래프는 뒤죽박죽
+- 그래프는 노드(vertex), 엣지 의 집합
+- DAG = Directed Acyclic Graph, 엣지가 방향이 있지만 사이클이 없는 그래프
+
+## Adjacency matrix
+- 각 노드에 달려있는 엣지들을 array 에 저장
+- 각 노드에 임의의 인덱스를 부여
+-  A[i, j] =  i 번째 노드에서 j 번째 노드로 가는 엣지, 없으면 0, 있으면 1, 가중치 그래프라면 가중치값 
+- 대부분 엣지가 없으면 대부분 0이 채워지는 쓸데없는 메모리 낭비 유발하므로 dense 그래프에 적합. 즉 각 노드를 연결하는 엣지가 대부분 존재하는 그래프에 적합. 
+
+
+## Adjacency list
+- 각 노드에 달려있는 엣지들을 linked list 에 저장
+- sparse한 그래프에 적합
+
+
+## DFS traverse
+- 일단 한줄로 깊이 들어가기
+- 재귀, stack
+- pre-order = current -> child
+- 트리와 달리 루트가 없으므로 시작 노드를 임의로 선정해서 시작
+- 트리와 달리 사이클이 있을 수 있으므로 이전에 방문한 노드는 기록해놨다가 재방문 안하도록
+
+
+
+
+
+## BFS traverse
+- 동일 레벨부터 방문
+- 트리와 달리 루트가 없으므로 시작 노드를 임의로 선정해서 시작
+- 트리와 달리 사이클이 있을 수 있으므로 이전에 방문한 노드는 기록해놨다가 재방문 안하도록
+- queue 에 시작 노드를 넣고 노드를 큐에서 dequeue 할 때마다 해당 노드의 children을 enqueue 한다
+
+
+## 최단경로 찾기, 다익스트라
+- 그래프, 시작노드의 정보가 주어짐
+- memoization table =각 노드까지의 누적거리를 나타낸다. 출발 노드 누적저리는 0, 나머지노드까지의 누적거리는 무한대로 표시해놓기, 각 노드까지 걸리는 누적거리를 현재보다 작은 값이 나오면 업데이트
+- O(logV) = 각 노드(V)까지의 누적거리의 최소값을 찾아야 하므로 binary heap 을 사용하여 최소값 구한다
+- retrace table = 최단경로를 위한 과정경로를 저장해둔다
+
+
+
+
+## minimum spanning tree
+- 모든 노드를 최단거리로 커버할 수 있는 base camp 찾기
+- 즉 모든 노드를 최소한의 operation 으로 traverse 할 수 있는 트리를 찾기
+- U = covered vertex 집합
+- U 에 시작노드만 넣어놓고 시작한다
+- coverd 노드집합과 uncovered 노드집합을 연결하는 최소 가중치의 엣지를 찾아서 그 노드를 cover 한다. uncoverd 노드가 없어질 때까지 과정을 반복한다
+
+
+
+
+---
+
 # O(N^2) sorting
 - inner loop, outer loop 사용
 - 오래걸림
@@ -135,6 +193,25 @@
 - selection sort(최소값 찾아서 빼내고 거기서 또 최소값 찾아서 빼내고)
 - bubble sort
 
+## selection sort
+- n개의 배열에서 가장 큰 수를 찾아서 배열의 마지막 원소와 바꿔치기
+- n-1 배열에서 가장 큰 수 를 찾아서 이 배열의 마지막 원소와 바꿔치기
+- 반복
+- O(n^2)
+
+## bubble sort
+- n개의 배열 정렬할 때
+- 배열의 첫번째 원소를 순서대로 비교해서 비교한 수 보다 크면 서로 위치를 바꾸기
+- n + (n-1) + (n-2) + ... + 1 번의 operation이 필요하다, O(N^2)
+
+## insertion sort
+- selection sort 나 bubble sort의 절반정도 소요된다
+- n 크기의 배열이 있을 때 첫 원소부터 n 크기의 배열을 순서대로 정렬해나가는 방법
+- 즉 정렬된 앞의 배열에 그 다음 원소를 적절한 위치에 삽입하는 방법
+- 최악의 경우 O(n^2)
+- 최선의 경우 O(n)
+
+---
 
 # O(N*logN) sorting
 - 작은 단위로 쪼개서 푼 후 합치기 (divide and conquer) = 비교를 사용하여 O(N^2)을 O(N*logN)으로 개선
@@ -144,6 +221,34 @@
 - heap sort
 - quick sort = pivot 을 기준으로 divide and conquer. pivot을 잘 고르는 것 이 중요.
 
+## merge sort
+- 분할정복법: 작은 크기의 '동일한' 문제로 분할, 합병이 중요
+- 데이터가 저장된 배열을 절반으로 나눔
+- 각각을 순환적으로 정렬
+- 정렬된 두 배열을 합쳐 전체를 정렬 (이 때 합 친 원소를 담을 새로운 배열이 필요한 단점)
+- 정렬된 두 배열을 합칠 때 두 배열의 첫번째 원소를 비교해서 그 중 작은 것을 새배열의 왼쪽에 넣기
+- O(n * logn)
+
+
+## quick sort
+- 분할정복법: 피봇을 기준으로 분리하는 파티션이 중요
+- pivot을 선정(주로 배열의 제일 마지막 원소로 선정)해서 피봇보다 작은 그룹과 피봇보다 큰 그룹으로 나눈다
+- 각 그룹을 재귀 호출해서 정렬
+- 합칠 필요 없음
+- 최악의 경우: 피봇이 최대값 또는 최소값인 경우 O(n^2)
+- 최선의 경우: 피봇이 중값값일 경우. O(n * logn)
+- 평균 시간복잡도 역시 빠르다: O(n * logn)
+
+## heap sort
+- heap 구조를 만들어서 정렬해야할 값들을 하나씩 넣어준다
+- 값을 insert 한다. O(logN) = O(H)
+- n개를 넣으므로 O(N*logN) 걸림
+- 최대값인 루트를 제거하는 데 O(logN) 걸림
+- 즉 최대값을 찾아서 빼고 다시 나머지 중 최대값 찾는 걸 반복하면 정렬 가능 O(N*logN)
+- 즉 값들을 힙에 넣어줄 때 O(N*logN), 루트를 하나씩 뺄 때 O(N*logN) 걸리므로 총 O(2*N*logN) 걸리므로 상수 무시하고 O(N*logN) 걸린다고 할 수 있음
+
+---
+
 
 # O(N) sorting
 - 특정 조건에서 비교를 하지 않고 정렬가능
@@ -151,16 +256,7 @@
 - radix sort = integer 조건, 작은 자릿수부터 시작해서 각 자릿수마다 count sort 를 한다. O(N * digitCount)
 
 
-# bubble sort
-- n개의 배열 정렬할 때
-- 각 인덱스마다 다른 인덱스들과 비교하면서 적합한 수로 교체한다
-- n + (n-1) + (n-2) + ... + 1 번의 operation이 필요하다, O(N^2)
 
 
-# heap sort
-- heap 구조를 만들어서 정렬해야할 값들을 하나씩 넣어준다
-- 값을 insert 한다. O(logN) = O(H)
-- n개를 넣으므로 O(N*logN) 걸림
-- 최대값인 루트를 제거하는 데 O(logN) 걸림
-- 즉 최대값을 찾아서 빼고 다시 나머지 중 최대값 찾는 걸 반복하면 정렬 가능 O(N*logN)
-- 즉 값들을 힙에 넣어줄 때 O(N*logN), 루트를 하나씩 뺄 때 O(N*logN) 걸리므로 총 O(2*N*logN) 걸리므로 상수 무시하고 O(N*logN) 걸린다고 할 수 있음
+
+
