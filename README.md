@@ -43,6 +43,8 @@
 
 ## threads
 
+- sync vs async [link](https://gist.github.com/torpedo87/d95cde39b0f4fc6459b829e6102e3843)
+
 
 ---
 
