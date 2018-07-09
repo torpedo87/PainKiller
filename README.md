@@ -45,6 +45,7 @@
 
 - sync vs async [link](https://gist.github.com/torpedo87/d95cde39b0f4fc6459b829e6102e3843)
 - dispatch group [link](https://gist.github.com/torpedo87/970cc40c63a96f4a849375d4e7046dca)
+- operation queue [link](https://gist.github.com/torpedo87/21a6a36a6691d7f80404eb312dd157d4)
 
 ---
 
