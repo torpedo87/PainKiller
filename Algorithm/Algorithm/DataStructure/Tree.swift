@@ -9,6 +9,7 @@
 import Foundation
 
 //계층구조
+//node(value, parent, child)
 
 class Node<T> {
   var value: T

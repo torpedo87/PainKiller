@@ -64,6 +64,7 @@
 
 
 ## binary search tree
+- 크기를 비교해서 search 하기 편한 구조
 - root 노드에서 insert, delete
 - degree = 2, left child < parent < right child  의 규칙을 따르므로 search 에 용이한 구조
 - search = search 범위를 계속 반으로 줄여나감, O(Height) = O(logN), linked list 보다 search 빠름
@@ -74,7 +75,7 @@
 - 최대값 찾기 = 오른쪽으로 내려가기
 
 
-### Depth first traverse 
+### Depth first traverse (깊이 우선)
 - 일단 한줄로 깊이 들어가기
 - left -> right
 - 재귀 사용. stack
@@ -83,10 +84,10 @@
 - post-order = left -> right -> current
 
 
-### breadth first traverse
+### breadth first traverse(너비우선)
 - 동일한 레벨부터 
 - (queue, 반복문 사용)
-- enqueue root
+- 맨 처음 root를 enqueue 한다
 - queue 가 empty 될 때까지 밑에 반복
 - current를 dequeue
 - 빼낸 것의 left , right child를 enqueue
@@ -100,9 +101,13 @@
 
 
 # max binary heap
+- parent > child
 - complete tree 이면서 parent 의 우선순위가 child 보다 높은 것을 만족하는 binary tree 
 - prioirty 에 따라 정렬 시 max  값(root)을 O(1)로 찾을 수 있음
 - linked list 대신 array로 대체해서 insert, delete 하면 편하다
+- parent(i) = floor((i - 1)/2)
+- left(i)   = 2i + 1
+- right(i)  = 2i + 2
 - prioirty queue의 enqueue = complete tree 구조를 만족시키기 위해 마지막 레벨의 다음 넣을 자리에 넣은 삽입한 후 위로 올라가면서 parent 와 비교해서 자리 교체(재귀), O(logN)
 - priority queue의 dequeue (root delete) = root 를 지우고 complete tree 구조를 유지하기 위해 가장 마지막 노드를 root 차리에 채운 후 밑으로 내려가면서 bigger child 와 비교해서 자리 교체(재귀), O(logN)
 
@@ -154,9 +159,6 @@
 - 트리와 달리 사이클이 있을 수 있으므로 이전에 방문한 노드는 기록해놨다가 재방문 안하도록
 
 
-
-
-
 ## BFS traverse
 - 동일 레벨부터 방문
 - 트리와 달리 루트가 없으므로 시작 노드를 임의로 선정해서 시작
@@ -166,8 +168,9 @@
 
 ## 최단경로 찾기, 다익스트라
 - 그래프, 시작노드의 정보가 주어짐
+- dynamic programming 방법과 유사
 - memoization table =각 노드까지의 누적거리를 나타낸다. 출발 노드 누적저리는 0, 나머지노드까지의 누적거리는 무한대로 표시해놓기, 각 노드까지 걸리는 누적거리를 현재보다 작은 값이 나오면 업데이트
-- O(logV) = 각 노드(V)까지의 누적거리의 최소값을 찾아야 하므로 binary heap 을 사용하여 최소값 구한다
+- heap의 높이 O(logV) = 각 노드(V)까지의 누적거리의 최소값을 찾아야 하므로 binary heap 을 사용하여 최소값(루트?) 구한다
 - retrace table = 최단경로를 위한 과정경로를 저장해둔다
 
 
@@ -189,9 +192,9 @@
 - inner loop, outer loop 사용
 - 오래걸림
 - 구현이 쉽다
-- insertion sort 
+- insertion sort (정렬된 앞의 배열에 그 다음 원소를 적절한 위치에 삽입)
 - selection sort(최소값 찾아서 빼내고 거기서 또 최소값 찾아서 빼내고)
-- bubble sort
+- bubble sort(배열의 첫번째 원소를 순서대로 비교해서 비교한 수 보다 크면 서로 위치를 바꾸기)
 
 ## selection sort
 - n개의 배열에서 가장 큰 수를 찾아서 배열의 마지막 원소와 바꿔치기

@@ -16,11 +16,12 @@ struct Queue<T> {
     return list.isEmpty
   }
   
+  //맨 뒤에 넣기
   mutating func enqueue(_ element: T) {
     list.append(newValue: element)
   }
   
-  //first out
+  //맨 앞에서 빼내기
   mutating func dequeue() -> T? {
     guard !list.isEmpty, let element = list.first else { return nil }
     
@@ -33,3 +34,4 @@ struct Queue<T> {
   }
   
 }
+

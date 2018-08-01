@@ -8,10 +8,12 @@
 
 import Foundation
 
-//pointer
+//value, nextNode, prevNode
 class NodeForLinkedList<T> {
   var value: T
   var next: NodeForLinkedList<T>?
+  
+  //next 아니고 무조건 prev 에 weak 해줘야 잘 동작하네
   weak var previous: NodeForLinkedList<T>?
   
   init(value: T) {
@@ -38,6 +40,8 @@ class LinkedList<T> {
   
   func append(newValue: T) {
     let newNode = NodeForLinkedList(value: newValue)
+    
+    //꼬리에 삽입
     if let tailNode = tail {
       newNode.previous = tailNode
       tailNode.next = newNode
@@ -48,6 +52,7 @@ class LinkedList<T> {
     tail = newNode
   }
   
+  //read
   func nodeAt(index: Int) -> NodeForLinkedList<T>? {
     
     //head부터 시작해서 포인터를 따라서 찾아야함
@@ -65,11 +70,7 @@ class LinkedList<T> {
     return nil
   }
   
-  func removeAll() {
-    head = nil
-    tail = nil
-  }
-  
+  //delete (head, 중간, tail일 경우)
   func remove(node: NodeForLinkedList<T>) -> T {
     let prev = node.previous
     let next = node.next
@@ -92,4 +93,5 @@ class LinkedList<T> {
     
     return node.value
   }
+  
 }
