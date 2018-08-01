@@ -31,3 +31,25 @@
 - 입출력 시스템
   - disk management [link](https://gist.github.com/torpedo87/b3e0ea23ad3af6088fea230c008a5028)
   - Ext 파일시스템 [link](https://gist.github.com/torpedo87/2ee206d3343d0c0569c8364bac257813)
+
+---
+
+## AutoLayout
+
+- autoResizing, stackView, constraints [link](https://gist.github.com/torpedo87/493d10f47ae759a22e46d6597d5c123b)
+- UILayoutGuide [link](https://gist.github.com/torpedo87/bd070829c588575e4fc0b34a5b750519)
+
+---
+
+## threads
+
+- sync vs async [link](https://gist.github.com/torpedo87/d95cde39b0f4fc6459b829e6102e3843)
+- dispatch group [link](https://gist.github.com/torpedo87/970cc40c63a96f4a849375d4e7046dca)
+- operation queue [link](https://gist.github.com/torpedo87/21a6a36a6691d7f80404eb312dd157d4)
+
+---
+
+## Network
+
+- URLSession [link](https://gist.github.com/torpedo87/a6f0a53157204fdd14e15c2fdf1eaed4)
+- TCP / IP [link](https://gist.github.com/torpedo87/44be0ee5d4a1882499c007d133fd7c6d)
