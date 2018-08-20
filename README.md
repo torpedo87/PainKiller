@@ -59,3 +59,11 @@
 ## 면접때 받은 질문들 정리해놓기
 
 - [link](https://gist.github.com/torpedo87/73de97ef51a2ac430db9a68d86ea6e45)
+
+
+---
+
+## Debugging
+
+- [break points](https://gist.github.com/torpedo87/22cac8f64f11d8fe73340e4c1fa476f5)
+- 
