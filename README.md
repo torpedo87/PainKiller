@@ -67,3 +67,10 @@
 
 - [break points](https://gist.github.com/torpedo87/22cac8f64f11d8fe73340e4c1fa476f5)
 - [xcode tool](https://gist.github.com/torpedo87/993134718d4811e52bea9ee116118289)
+
+
+## instruments
+
+- performance
+- memory
+- battery
