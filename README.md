@@ -71,6 +71,4 @@
 
 ## instruments
 
-- performance
-- memory
-- battery
+- [performance, memory, battery](https://gist.github.com/torpedo87/cbb14e0905a4d15fff463e52cd404902)
