@@ -63,6 +63,10 @@
 
 ---
 
+## Xcode Tips
+- [tips](https://gist.github.com/torpedo87/a5e6dc0715e471325376c81752792ad8)
+
+
 ## Debugging
 
 - [break points](https://gist.github.com/torpedo87/22cac8f64f11d8fe73340e4c1fa476f5)
