@@ -76,3 +76,11 @@
 ## instruments
 
 - [performance, memory, battery](https://gist.github.com/torpedo87/cbb14e0905a4d15fff463e52cd404902)
+
+
+---
+
+## objective-C vs swift
+- [link](https://gist.github.com/torpedo87/83305868bf8d2e200afc95c53f27d89c)
+
+
