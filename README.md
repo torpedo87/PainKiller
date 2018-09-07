@@ -84,3 +84,7 @@
 - [link](https://gist.github.com/torpedo87/83305868bf8d2e200afc95c53f27d89c)
 
 
+## 컴퓨터과학총론 12판
+- [데이터 저장](https://gist.github.com/torpedo87/883341a12c10682fec936f45d59ca2d6)
+- [데이터 관리]()
+- 
