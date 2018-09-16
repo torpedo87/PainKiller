@@ -87,7 +87,7 @@
 ## 컴퓨터과학총론 12판
 - [데이터 저장](https://gist.github.com/torpedo87/883341a12c10682fec936f45d59ca2d6)
 - [데이터 조작](https://gist.github.com/torpedo87/6b88ee6e6d937394badbdf4afa9628f1)
-- [운영체제]()
+- [운영체제](https://gist.github.com/torpedo87/aa828af446f23aef75695a00d5938057)
 - [네트워킹과 인터넷]()
 - [알고리즘]()
 - [프로그래밍 언어]()
