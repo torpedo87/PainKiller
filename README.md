@@ -91,7 +91,7 @@
 - [네트워킹과 인터넷]()
 - [프로그래밍 언어, 소프트웨어 공학](https://gist.github.com/torpedo87/95f5e9716213d9b806aa43abd32ed15a)
 - [데이터 추상화](https://gist.github.com/torpedo87/441957d131a55652c19d8bca544eb8b4)
-- [데이터베이스]()
+- [데이터베이스](https://gist.github.com/torpedo87/e604fb72eb7dacba4f0fd71ca01c2f01)
 - [컴퓨터 그래픽스]()
 - [인공지능]()
 - [계산이론]()
