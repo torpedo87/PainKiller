@@ -78,6 +78,9 @@
 - [performance, memory, battery](https://gist.github.com/torpedo87/cbb14e0905a4d15fff463e52cd404902)
 
 
+## 데이터 저장
+- [saving data](https://gist.github.com/torpedo87/a150084ef309613769277db11c226e42)
+
 ---
 
 ## objective-C vs swift
