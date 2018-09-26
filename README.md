@@ -96,5 +96,5 @@
 - [데이터 추상화](https://gist.github.com/torpedo87/441957d131a55652c19d8bca544eb8b4)
 - [데이터베이스](https://gist.github.com/torpedo87/e604fb72eb7dacba4f0fd71ca01c2f01)
 - [컴퓨터 그래픽스](https://gist.github.com/torpedo87/60f95c92981671bfdcfe4d94aab420e7)
-- [인공지능]()
+- [인공지능](https://gist.github.com/torpedo87/570be923a4701b7299e1dbba59064ac6)
 - [계산이론]()
