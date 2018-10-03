@@ -80,6 +80,7 @@
 
 ## 데이터 저장
 - [saving data](https://gist.github.com/torpedo87/a150084ef309613769277db11c226e42)
+- [Core Data](https://gist.github.com/torpedo87/f325d2fb41e80b460d403079e7396350)
 
 ---
 
