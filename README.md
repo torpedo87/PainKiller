@@ -1,5 +1,12 @@
 # Pain killer
 
+## UIView
+
+- NIB [link](https://gist.github.com/torpedo87/a49b2a9e5a153d9d45cb25c521d16d43)
+- temporary view
+- container view
+
+
 ## OS
 
 - 개요
