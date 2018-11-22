@@ -1,5 +1,8 @@
 # Pain killer
 
+- 필수적으로 알아야할 지식 저장소!
+
+
 ## UIView
 
 - NIB [link](https://gist.github.com/torpedo87/a49b2a9e5a153d9d45cb25c521d16d43)
