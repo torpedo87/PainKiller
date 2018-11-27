@@ -3,6 +3,12 @@
 - 필수적으로 알아야할 지식 저장소!
 
 
+## data structure and algorithm
+
+- [data structure](https://gist.github.com/torpedo87/55c3312e5176b31684a979478c7c5f45)
+
+
+
 ## UIView
 
 - NIB [link](https://gist.github.com/torpedo87/a49b2a9e5a153d9d45cb25c521d16d43)
