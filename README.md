@@ -10,6 +10,11 @@
 - [stack](https://gist.github.com/torpedo87/ccd0f0a0aa6e35177206660fd567acfb)
 
 
+## Design pattern
+- [link](https://gist.github.com/torpedo87/2ff421b910db38a12e2fc04b5a6031ac)
+- [intro](https://gist.github.com/torpedo87/a0d6a7dfafc4e82bf32ed49e7c933e80)
+
+
 ## UIView
 
 - NIB [link](https://gist.github.com/torpedo87/a49b2a9e5a153d9d45cb25c521d16d43)
