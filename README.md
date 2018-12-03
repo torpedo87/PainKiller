@@ -8,6 +8,7 @@
 - [data structure](https://gist.github.com/torpedo87/55c3312e5176b31684a979478c7c5f45)
 - [linked list](https://gist.github.com/torpedo87/80a73e6380cbac0f2b629fb44a430e9f)
 - [stack](https://gist.github.com/torpedo87/ccd0f0a0aa6e35177206660fd567acfb)
+- [Queue](https://gist.github.com/torpedo87/8cdf60caa494837cfbf66efad195abd2)
 
 
 ## Design pattern
