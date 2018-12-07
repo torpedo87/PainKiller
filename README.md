@@ -11,6 +11,7 @@
 - [Queue](https://gist.github.com/torpedo87/8cdf60caa494837cfbf66efad195abd2)
 - [Tree](https://gist.github.com/torpedo87/799b4d380c0526a1f59e6fdcef26bc34)
 - [Binary Tree](https://gist.github.com/torpedo87/56fcf729d90b6d7a7278f88004c64e29)
+- [Binary Search Tree](https://gist.github.com/torpedo87/c90aa6fd7e356c00b7e6d797900892d9)
 
 
 ## Design pattern
