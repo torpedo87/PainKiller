@@ -22,6 +22,7 @@
 - [MVC, Delegation, Strategy](https://gist.github.com/torpedo87/7a776887eb5e5984be8db355f0f2f519)
 - [Singleton, Memento, Observer, Builder](https://gist.github.com/torpedo87/b8129afc0371130ad27ab25d88376bb2)
 - [MVVM](https://gist.github.com/torpedo87/e8680041d067458f64039b1235f32735)
+- [Factory](https://gist.github.com/torpedo87/66504fe79d7a5e411ba0f344b962b03b)
 
 
 ## UIView
