@@ -13,7 +13,7 @@
 - [Binary Tree](https://gist.github.com/torpedo87/56fcf729d90b6d7a7278f88004c64e29)
 - [Binary Search Tree](https://gist.github.com/torpedo87/c90aa6fd7e356c00b7e6d797900892d9)
 - [AVL tree](https://gist.github.com/torpedo87/69fc96dbcf702c6d1d122f7a07ef70ee)
-
+- [Trie](https://gist.github.com/torpedo87/0265f32f1b7bcca4ebad4f75502c0cf6)
 
 
 ## Design pattern
