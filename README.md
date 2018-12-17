@@ -15,6 +15,7 @@
 - [AVL tree](https://gist.github.com/torpedo87/69fc96dbcf702c6d1d122f7a07ef70ee)
 - [Trie](https://gist.github.com/torpedo87/0265f32f1b7bcca4ebad4f75502c0cf6)
 - [Binary Search](https://gist.github.com/torpedo87/b63c012d5946ec0823a2944aaca6303a)
+- [Binary Heap](https://gist.github.com/torpedo87/78d7edcd96b9c3c52705807f7aaecbdf)
 
 
 ## Design pattern
