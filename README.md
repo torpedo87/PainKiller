@@ -16,6 +16,7 @@
 - [Trie](https://gist.github.com/torpedo87/0265f32f1b7bcca4ebad4f75502c0cf6)
 - [Binary Search](https://gist.github.com/torpedo87/b63c012d5946ec0823a2944aaca6303a)
 - [Binary Heap](https://gist.github.com/torpedo87/78d7edcd96b9c3c52705807f7aaecbdf)
+- [Prioirty Queue](https://gist.github.com/torpedo87/18e59c425fc3e2ed598fd7fafbe766f0)
 
 
 ## Design pattern
