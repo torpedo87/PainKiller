@@ -27,6 +27,7 @@
 - [MVVM](https://gist.github.com/torpedo87/e8680041d067458f64039b1235f32735)
 - [Factory](https://gist.github.com/torpedo87/66504fe79d7a5e411ba0f344b962b03b)
 - [Adapter](https://gist.github.com/torpedo87/033c8e1258758ad4816747bf4f4ce470)
+- [Iterator](https://gist.github.com/torpedo87/7fcd4657446ce00f8c49345b605b6591)
 
 
 ## UIView
