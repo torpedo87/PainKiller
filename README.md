@@ -3,7 +3,7 @@
 - 필수적으로 알아야할 지식 저장소!
 
 
-## data structure and algorithm
+## data structure
 
 - [data structure](https://gist.github.com/torpedo87/55c3312e5176b31684a979478c7c5f45)
 - [linked list](https://gist.github.com/torpedo87/80a73e6380cbac0f2b629fb44a430e9f)
@@ -17,6 +17,11 @@
 - [Binary Search](https://gist.github.com/torpedo87/b63c012d5946ec0823a2944aaca6303a)
 - [Binary Heap](https://gist.github.com/torpedo87/78d7edcd96b9c3c52705807f7aaecbdf)
 - [Prioirty Queue](https://gist.github.com/torpedo87/18e59c425fc3e2ed598fd7fafbe766f0)
+
+## algorithm
+
+- [compare sort](https://gist.github.com/torpedo87/c66ec3694fe1382d3dd6d957f17cd240)
+- [merge sort]()
 
 
 ## Design pattern
