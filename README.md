@@ -18,11 +18,14 @@
 - [Binary Heap](https://gist.github.com/torpedo87/78d7edcd96b9c3c52705807f7aaecbdf)
 - [Prioirty Queue](https://gist.github.com/torpedo87/18e59c425fc3e2ed598fd7fafbe766f0)
 
+
+
 ## algorithm
 
 - [compare sort](https://gist.github.com/torpedo87/c66ec3694fe1382d3dd6d957f17cd240)
 - [merge sort](https://gist.github.com/torpedo87/c4a66f2ff7da8f52f7c2ee7c764560e4)
 - [Radix sort](https://gist.github.com/torpedo87/bcc6404989a054ce2827a8666e509716)
+
 
 
 ## Design pattern
@@ -36,6 +39,7 @@
 - [Iterator](https://gist.github.com/torpedo87/7fcd4657446ce00f8c49345b605b6591)
 - [Prototype](https://gist.github.com/torpedo87/70dc91b20ee48dbed820a230a324037d)
 - [State pattern](https://gist.github.com/torpedo87/8aebacc242bb31e7a359e53d82427fb7)
+- [Multicast Delegate](https://gist.github.com/torpedo87/fb123b9ede5e77a867b8cfb62eac1354)
 
 
 ## UIView
