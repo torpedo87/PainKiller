@@ -34,6 +34,7 @@
 - [Adapter](https://gist.github.com/torpedo87/033c8e1258758ad4816747bf4f4ce470)
 - [Iterator](https://gist.github.com/torpedo87/7fcd4657446ce00f8c49345b605b6591)
 - [Prototype](https://gist.github.com/torpedo87/70dc91b20ee48dbed820a230a324037d)
+- [State pattern](https://gist.github.com/torpedo87/8aebacc242bb31e7a359e53d82427fb7)
 
 
 ## UIView
