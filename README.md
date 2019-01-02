@@ -42,6 +42,7 @@
 - [State pattern](https://gist.github.com/torpedo87/8aebacc242bb31e7a359e53d82427fb7)
 - [Multicast Delegate](https://gist.github.com/torpedo87/fb123b9ede5e77a867b8cfb62eac1354)
 - [Facade pattern](https://gist.github.com/torpedo87/39df8db2439da6087cdfddecc11cdbeb)
+- [Flyweight pattern](https://gist.github.com/torpedo87/46adc0772461a8682d99bf2c70a46830)
 
 
 ## UIView
