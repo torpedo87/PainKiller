@@ -18,6 +18,7 @@
 - [Binary Heap](https://gist.github.com/torpedo87/78d7edcd96b9c3c52705807f7aaecbdf)
 - [Prioirty Queue](https://gist.github.com/torpedo87/18e59c425fc3e2ed598fd7fafbe766f0)
 - [Heap sort](https://gist.github.com/torpedo87/893553b9592684b1e4182a0bc5746924)
+- [Quick sort](https://gist.github.com/torpedo87/1828b897a09e0bc5b664e6b878b656a0)
 
 
 ## algorithm
