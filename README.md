@@ -27,6 +27,7 @@
 - [Radix sort](https://gist.github.com/torpedo87/bcc6404989a054ce2827a8666e509716)
 - [Heap sort](https://gist.github.com/torpedo87/893553b9592684b1e4182a0bc5746924)
 - [Quick sort](https://gist.github.com/torpedo87/1828b897a09e0bc5b664e6b878b656a0)
+- [Breadth First Search](https://gist.github.com/torpedo87/963810687b1ea7ca72162264e0a3aa95)
 
 
 
