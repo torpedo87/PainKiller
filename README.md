@@ -46,6 +46,8 @@
 - [Facade pattern](https://gist.github.com/torpedo87/39df8db2439da6087cdfddecc11cdbeb)
 - [Flyweight pattern](https://gist.github.com/torpedo87/46adc0772461a8682d99bf2c70a46830)
 - [Mediator pattern](https://gist.github.com/torpedo87/502cca3488213fddac99b0a12710b550)
+- [Composite pattern](https://gist.github.com/torpedo87/af7e34e1ea3fe5367f61809e3192713d)
+
 
 
 ## UIView
