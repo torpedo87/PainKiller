@@ -29,6 +29,7 @@
 - [Quick sort](https://gist.github.com/torpedo87/1828b897a09e0bc5b664e6b878b656a0)
 - [Breadth First Search](https://gist.github.com/torpedo87/963810687b1ea7ca72162264e0a3aa95)
 - [Depth First Search](https://gist.github.com/torpedo87/97f6f4bf4fd1a0ecbe5760b33733bf67)
+- [Dijkstra algorithm](https://gist.github.com/torpedo87/e719f86a5f29b0f327dbed997658058b)
 
 
 ## Design pattern
