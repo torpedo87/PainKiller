@@ -30,6 +30,7 @@
 - [Breadth First Search](https://gist.github.com/torpedo87/963810687b1ea7ca72162264e0a3aa95)
 - [Depth First Search](https://gist.github.com/torpedo87/97f6f4bf4fd1a0ecbe5760b33733bf67)
 - [Dijkstra algorithm](https://gist.github.com/torpedo87/e719f86a5f29b0f327dbed997658058b)
+- [Prim algorithm](https://gist.github.com/torpedo87/ff080621cacc8828e1d3a30fbfce4ed6)
 
 
 ## Design pattern
