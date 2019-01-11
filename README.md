@@ -51,6 +51,7 @@
 - [Composite pattern](https://gist.github.com/torpedo87/af7e34e1ea3fe5367f61809e3192713d)
 - [Command pattern](https://gist.github.com/torpedo87/28de127633f5c8802f6994a479489e85)
 - [Chain of Responsibility](https://gist.github.com/torpedo87/dc11f1ed31b5b9bb29d0586987f0535e)
+- [Coordinator](https://gist.github.com/torpedo87/d2dc211521336e600fbf929d0e32e1ef)
 - [clean swift](https://gist.github.com/torpedo87/fd96f0fa0b7661da9947fdd889bda064)
 
 
