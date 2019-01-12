@@ -36,7 +36,8 @@
 ## Architecture
 - [Dependency](https://gist.github.com/torpedo87/a265446a061c231e3232268f8a6d085f)
 - [MVVM]()
-- [Redux]()
+- [Redux](https://gist.github.com/torpedo87/2f31ffb86bf7aee7ff3dc3d989a9eb55)
+- [Elements]()
 
 
 
