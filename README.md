@@ -33,6 +33,13 @@
 - [Prim algorithm](https://gist.github.com/torpedo87/ff080621cacc8828e1d3a30fbfce4ed6)
 
 
+## Architecture
+- [Dependency](https://gist.github.com/torpedo87/a265446a061c231e3232268f8a6d085f)
+- [MVVM]()
+- [Redux]()
+
+
+
 ## Design pattern
 - [link](https://gist.github.com/torpedo87/2ff421b910db38a12e2fc04b5a6031ac)
 - [intro](https://gist.github.com/torpedo87/a0d6a7dfafc4e82bf32ed49e7c933e80)
