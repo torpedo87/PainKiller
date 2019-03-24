@@ -62,7 +62,12 @@
 - [Coordinator](https://gist.github.com/torpedo87/d2dc211521336e600fbf929d0e32e1ef)
 - [clean swift](https://gist.github.com/torpedo87/fd96f0fa0b7661da9947fdd889bda064)
 
+---
 
+## Core Data
+- save, fetch [link](https://gist.github.com/torpedo87/00e29735359f10e8ee80df458fdb25bd)
+
+---
 
 ## UIView
 - storyboard [link](https://gist.github.com/torpedo87/5c33375bfabccaf5977b907082395b9c)
