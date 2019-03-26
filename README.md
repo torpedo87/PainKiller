@@ -67,6 +67,7 @@
 ## Core Data
 - save, fetch [link](https://gist.github.com/torpedo87/00e29735359f10e8ee80df458fdb25bd)
 - NSManaged object [link](https://gist.github.com/torpedo87/5578263a1eaf84e8d66bb11615dd77f3)
+- Stack setting [link](https://gist.github.com/torpedo87/9c0bfb80a12c9fb48b2675748532dc3c)
 
 ---
 
