@@ -69,6 +69,7 @@
 - NSManaged object [link](https://gist.github.com/torpedo87/5578263a1eaf84e8d66bb11615dd77f3)
 - Stack setting [link](https://gist.github.com/torpedo87/9c0bfb80a12c9fb48b2675748532dc3c)
 - fetching [link](https://gist.github.com/torpedo87/beae0f9da533a57aad464dc22cfc7b72)
+- NSFetchedResultsController [link](https://gist.github.com/torpedo87/c641de071ec38459df674be386e2415e)
 
 ---
 
